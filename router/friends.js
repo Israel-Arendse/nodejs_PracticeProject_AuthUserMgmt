@@ -49,11 +49,11 @@ router.put("/:email", function (req, res) {
             friend["DOB"]= DOB
         }
 
-        if(firstname){
+        if(firstName){
             friend["firstName"]=firstName
         }
 
-        if(lastname){
+        if(lastName){
             friend["lastName"]=lastName
         }
 
